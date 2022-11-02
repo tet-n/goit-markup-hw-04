@@ -367,6 +367,18 @@ img {
   background-color: var(--tertiary-bg-color);
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Контакти */
+
+.address-wrapper {
+  min-width: 231px;
+  margin-right: 70px;
+}
+
 .footer .contact {
   padding-left: 0;
 }
@@ -402,6 +414,33 @@ img {
 .contact .link-footer:hover,
 .contact .link-focus {
   color: var(--accent-color);
+}
+
+/* Соціальні мережі */
+
+.social-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.social-wrapper .social-link {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--secondary-icon-fill);
+}
+
+.social-wrapper .social-link:hover,
+.social-wrapper .social-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* Портфоліо */
