@@ -135,8 +135,8 @@ img {
 }
 
 .contact .link {
-  display: block;
   color: var(--primary-text-color);
+  fill: var(--primary-icon-fill);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -147,6 +147,23 @@ img {
 .contact .link:hover,
 .contact .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.header-mail {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-tel {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Hero */
