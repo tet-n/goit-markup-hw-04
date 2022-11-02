@@ -308,10 +308,30 @@ img {
 }
 
 .team-text {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--primary-icon-fill);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--secondary-icon-fill);
 }
 
 /* Постійні клієнти */
