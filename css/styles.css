@@ -236,6 +236,12 @@ img {
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
+.feature-item .thumb {
+  padding: 25px 100px;
+  background-color: var(--secondary-bg-color);
+  margin-bottom: 30px;
+}
+
 .feature-title {
   margin-bottom: 10px;
 
