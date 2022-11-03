@@ -342,12 +342,17 @@ img {
 
 .list-clients {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .link-client {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  flex-basis: calc((100% - 5 * 30px) / 6);
+  min-width: 170px;
 
   border: 1px solid var(--primary-icon-fill);
   border-radius: 4px;
@@ -412,7 +417,7 @@ img {
 }
 
 .contact .link-footer:hover,
-.contact .link-focus {
+.contact .link-footer:focus {
   color: var(--accent-color);
 }
 
@@ -514,7 +519,7 @@ img {
 }
 
 .project-item .content {
-  padding: 20px 24px;
+  padding: 20px 23px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
