@@ -237,7 +237,11 @@ img {
 }
 
 .feature-item .thumb {
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
   background-color: var(--secondary-bg-color);
   margin-bottom: 30px;
 }
@@ -350,9 +354,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px 0;
-  flex-basis: calc((100% - 5 * 30px) / 6);
-  min-width: 170px;
+  width: 170px;
+  height: 92px;
 
   border: 1px solid var(--primary-icon-fill);
   border-radius: 4px;
